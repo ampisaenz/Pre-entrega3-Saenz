@@ -1,0 +1,177 @@
+@import "variables";
+@import "galeria";
+
+nav ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul{
+    background-color: $color-activo;
+    position: center;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+ul li {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: rgb(238, 172, 230);
+}
+
+body {
+    background-color: rgb(247, 223, 223);
+    color: black;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section{
+    text-align: center;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+footer {
+    background-color: rgb(170, 114, 124);
+    bottom: 200%;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-links a {
+    color: black;
+}
+
+.active-link {
+    color: rgb(136, 31, 48) !important
+}
+
+.footer-section {
+    margin: 3px;
+    padding: 3px;
+}
+
+.principal-text {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.principal-text h1{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgb(240, 170, 170) , rgb(238, 150, 165) , rgb(216, 74, 97));
+}
+
+.principal-text h2{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(240, 170, 170) , rgb(238, 150, 165) , rgb(216, 74, 97));
+}
+
+.full-width-image {
+    min-width: 30px;
+    max-width: 50%;
+    width: 100%;
+    min-height: 150%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
+
+}
+
+
+.principal { 
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.principal h1 {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgb(240, 170, 170) , rgb(238, 150, 165) , rgb(216, 74, 97));
+}
+input[type=submit] {
+    background-color: #c776ec;
+    color: black;
+    padding: 12px 20px;
+    border: 5px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0e6d46;
+}
+
+.redes{
+    overflow: visible;
+    list-style: none;
+    display: list-item;
+}
+
+div h1{
+    position: center;
+    top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+label p{
+    text-align: center;
+}
+
+.h1 {
+    background-image: linear-gradient(to left, rgb(253, 81, 115), rgb(240, 186, 195));
+}
